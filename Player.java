@@ -2,7 +2,7 @@ public class Player {
     int number= 0; 
 
     public void guess() {
-	number = (int)(math.random()*10);
+	number = (int)(Math.random()*10);
 	System.out.println("I'm guessing " + number);
     }
 }
